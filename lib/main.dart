@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'Sgin up.dart';
 import 'login page.dart';
 
 void main() {
@@ -137,6 +138,10 @@ class _SplashTridState extends State<SplashTrid> {
     Navigator.of(context)
         .push(MaterialPageRoute(builder: (context) => const Login()));
   }
+  void _navigateToSginUp(BuildContext context) {
+    Navigator.of(context)
+        .push(MaterialPageRoute(builder: (context) => const SingUp()));
+  }
 
   @override
   void initState() {
@@ -195,7 +200,9 @@ class _SplashTridState extends State<SplashTrid> {
                       'Sign Up',
                       style: TextStyle(fontSize: 20, color: Color(0xFFFFC727)),
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      _navigateToSginUp(context);
+                    },
                   ),
                 ),
               )
