@@ -65,8 +65,7 @@ class _SplashSecondState extends State<SplashSecond> {
       body: Stack(
         children: [
           Image.asset(
-            "assets/image/Untitled-2.png",
-            fit: BoxFit.cover,
+            "assets/image/Untitled-2.png"
           ),
           Positioned(
             child: Padding(

@@ -28,6 +28,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  firebase_core_platform_interface: 4.5.1
   firebase_auth: ^1.0.3
   google_sign_in: ^5.4.3
   email_validator: ^1.0.0
