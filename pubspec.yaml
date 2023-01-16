@@ -28,6 +28,10 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  firebase_auth: ^1.0.3
+  google_sign_in: ^5.4.3
+  email_validator: ^1.0.0
+
   flutter:
     sdk: flutter
 
@@ -62,6 +66,7 @@ flutter:
   assets:
     - assets/image/
     - assets/image/Untitled-2-Recovered.png
+    - assets/image/bg 3-1.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -75,10 +80,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+ # fonts:
+  #  - family: Poppins
+   #   fonts:
+    #    - asset: assets/font/Poppins.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

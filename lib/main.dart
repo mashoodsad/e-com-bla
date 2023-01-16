@@ -107,7 +107,7 @@ class _SplashSecondState extends State<SplashSecond> {
               child: Text(
                 'Share the love for\n'
                 'our furry friends',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26,fontFamily: 'Poppins'),
               ),
             ),
           )),
@@ -116,7 +116,9 @@ class _SplashSecondState extends State<SplashSecond> {
             child: Align(
                 alignment: Alignment.bottomLeft,
                 child: Text(
-                    "Things that make them happy and make \n your life easy and hussle free")),
+                    "Things that make them happy and make \n your life easy and hussle free",style: TextStyle(
+                  fontSize: 14,fontFamily: 'Poppins'
+                ),)),
           )
         ],
       ),
