@@ -14,7 +14,7 @@ class _SingUpState extends State<SingUp> {
     return  Scaffold(
       body: Stack(
         children:[
-          Image.asset("assets/image/sin1-1.png"),
+          Image.asset("assets/image/sin1-1.png",fit: BoxFit.cover,),
       const Positioned(child:
       MyCustomForm(),)
     ]
